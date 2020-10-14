@@ -1,0 +1,44 @@
+Solution 
+
+===================================================================
+def main():
+
+n=int(input())
+a=list(map(int,input().split()))
+dicta={}
+for i in a :
+    if(i in dicta):
+        dicta[i]+=1
+    else:
+        dicta[i]=1
+print("Counter("+str(dicta)+")")
+
+main()
+=================================================================
+
+
+
+
+
+
+
+Problem Statement
+Counter (100 Marks)
+Given a list of integers use counter to find the occurrences of integers.
+Input Format
+The first line of input consists of number of integers, N
+The second line of input consists of N number of space separated integers.
+Constraints
+1<= N <=50
+1<= Ai <=50
+Output Format
+Use the counter to find the occurrences of integers
+Sample TestCase 1
+Input
+10
+1 2 3 2 4 3 2 1 1 4
+Output
+Counter({1: 3, 2: 3, 3: 2, 4: 2})
+
+solution :
+
